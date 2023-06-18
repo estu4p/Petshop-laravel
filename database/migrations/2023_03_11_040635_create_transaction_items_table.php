@@ -15,7 +15,7 @@ return new class extends Migration
             $table->id();
             $table->bigInteger('users_id');
             $table->bigInteger('products_id');
-            $table->bigInteger('transaction_id');
+            $table->bigInteger('transactions_id');
             $table->timestamps();
         });
     }
